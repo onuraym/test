@@ -1,0 +1,97 @@
+.header {
+  width: 1440px;
+  height: 64px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header__content {
+  padding: 8px 24px;
+  display: flex;
+}
+.header__logo {
+  width: 142px;
+  height: 35px;
+  margin-right: 48px;
+  text-align: center;
+  /* padding-top: 7px; */
+  /* align-self: center; */
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.header__dropdown {
+  width: 12px;
+  height: 12px;
+}
+
+.header__list li{
+  /* display: inline-block;
+  position: relative; */
+  margin-right: 48px;
+  list-style-type: none;
+  align-items: center;
+}
+
+
+
+.header__menu li a:nth-child(1),
+.header__menu li a:nth-child(3),
+.header__menu li a:nth-child(4){
+  
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.header__menu li a:nth-child(2) {
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  color: #000000;
+  text-decoration: none;
+  /* display: flex; */
+  text-align: center;
+}
+
+.header__menu li a:nth-child(1),
+.header__menu li a:nth-child(2),
+.header__menu li a:nth-child(4) {
+  margin-right: 10px;
+}
+
+/* .header__list li:last-child {
+  margin-right: 0px;
+  margin-left: -25px;
+} */
+
+.header__buttons {
+  align-self: flex-end;
+}
+
+.header__buttons {
+  margin-left: auto;
+}
+
+.button {
+  font-size: 18px;
+  outline: none;
+  border: none;
+  background: transparent;
+  font-weight: 700;
+  height: 48px;
+  width: 144px;
+
+}
+
+.header__button_green {
+  background: #00C805;
+  border-radius: 24px;
+}
